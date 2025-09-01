@@ -27,7 +27,6 @@ app.use("/api/customers", customersRoutes);
 app.use("/api/employee", employeeRoutes);
 app.use("/api/branches", branchesRoutes);
 app.use("/api/reviews", reviewsRoutes);
-b;
 
 app.use("/api/registerEmployees", registerEmployeesRoutes);
 app.use("/api/login", loginRoutes);
