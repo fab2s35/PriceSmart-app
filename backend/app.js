@@ -18,6 +18,9 @@ import salesRoutes from "./src/routes/sales.js";
 // Creo una constante que es igual a la libreria que importé
 const app = express();
 
+//Que acepte datos en json
+app.use(express.json());
+
 // Que acepte cookies
 app.use(cookieParser());
 
